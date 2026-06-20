@@ -1,0 +1,47 @@
+═══════════════════════════════════════════════════════════════════
+   CAB ROUTE OPTIMIZATION — BATCH RESULTS
+═══════════════════════════════════════════════════════════════════
+
+  Algorithm: Dijkstra's Shortest Path
+  City: Chennai | Nodes: 25 | Edges: 36
+
+───────────────────────────────────────────────────────────────────
+  OPTIMIZED ROUTES
+───────────────────────────────────────────────────────────────────
+
+  #   Pickup        Dropoff          Route                          Dist    Time    Cost
+  ─────────────────────────────────────────────────────────────────────────────────────
+  1   T. Nagar      Airport          T. Nagar → Nungambakkam →      22.4    54      ₹142
+                                     Chetpet → Airport
+
+  2   Adyar         OMR              Adyar → OMR                    5.2     13      ₹33
+
+  3   Anna Nagar    Sholinganallur   Anna Nagar → Kodambakkam →     18.7    45      ₹119
+                                     Ashok Nagar → OMR → 
+                                     Sholinganallur
+
+  4   Velachery     ECR              Velachery → OMR → ECR          9.7     23      ₹62
+
+  5   Guindy        Tambaram         Guindy → Airport → Tambaram    17.7    42      ₹113
+
+───────────────────────────────────────────────────────────────────
+  SAVINGS SUMMARY
+───────────────────────────────────────────────────────────────────
+
+  Total Routes:              5
+  Total Distance:            73.7 km
+  Total Fuel Cost:           ₹469
+  Average Cost per Trip:     ₹94
+
+  vs Non-Optimized Routes:
+  ─────────────────────────────────────────────────────────────
+  Distance Saved:            13.3 km (18.3%)
+  Time Saved:                9.9 min (22.1%)
+  Fuel Cost Saved:           ₹84.4 (18.3%)
+
+  📅 Monthly Savings:        ₹2,532
+  📅 Annual Savings:         ₹30,799
+
+═══════════════════════════════════════════════════════════════════
+  END OF REPORT
+═══════════════════════════════════════════════════════════════════
